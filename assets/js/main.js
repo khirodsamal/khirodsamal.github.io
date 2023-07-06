@@ -40,7 +40,7 @@ let contactForm= document.getElementById("contact-form"),
 let sendEmail= (e) =>{
     e.preventDefault()
 
-    emailjs.sendForm('service_86zf7fm', 'template_fb2yi4h','#contact-form', '47Zf1Qpmwo-EgDTap')
+    emailjs.sendForm('service_w68q1cc', 'template_jtipns6','#contact-form', 'APQ3GIgKSmAhbzD5D')
     .then(() => {
         contactMessage.textContent='Message sent successfully '
 
